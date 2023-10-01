@@ -7,20 +7,23 @@
   line-height: 20px;
 }
 
-.page__header {
+.header {
 }
 
-.page__recipes {
+.content {
 }
 
-.page__reservations {
+.content__recipes {
 }
 
-.page__menu {
+.content__reservation {
 }
 
-.page__about {
+.content__menu {
 }
 
-.page__footer {
+.content__about {
+}
+
+.footer {
 }
