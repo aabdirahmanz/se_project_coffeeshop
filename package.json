@@ -1,0 +1,15 @@
+{
+  "name": "se_project_coffeeshop",
+  "version": "1.0.0",
+  "description": "This is the second project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design brief.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.1.0"
+  }
+}
