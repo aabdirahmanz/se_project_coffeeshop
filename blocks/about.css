@@ -1,0 +1,66 @@
+.about__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: white;
+    max-width: 251px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    position: relative;
+    z-index: 2;
+    top: -55px;
+    left: 100px;
+  }
+  
+  .about__content {
+    max-width: 660px;
+    position: relative;
+    right: -700px;
+    top: -200px;
+  }
+  
+  .about__paragraph {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .about__circle {
+    background: #2F80ED;
+    border-radius: 50%;
+    width: 426px;
+    height: 426px;
+    position: absolute;
+    bottom: 152px;
+    right: 1050px;
+  }
+  
+  .about__circle_animation_blurred {
+    animation: pulsate 1.3s infinite;
+  }
+
+  @keyframes button {
+    from {opacity: 100%;}
+    to {opacity: 70%;}
+  }
+  
+  @keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  
+  50% {
+    opacity: 0.6;
+  }
+  
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+    
+  }
