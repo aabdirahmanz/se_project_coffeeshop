@@ -6,8 +6,6 @@
   line-height: 52px;
   margin: auto;
   color: white;
-  padding-left: 80px;
-  padding-top: 100px;
 }
 
 .recipes__subtitle {
@@ -17,7 +15,6 @@
   font-size: 20px;
   line-height: 30px;
   color: white;
-  padding-left: 80px;
   max-width: 438px;
 }
 
@@ -35,13 +32,14 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  gap: 24px;
+  gap: 40px;
   margin-top: 80px;
 }
 
 .recipes__videos-caption {
   color: white;
-  margin: auto;
+  margin-top: 24px;
+  margin-bottom: 0;
   display: flex;
   justify-content: space-between;
 }

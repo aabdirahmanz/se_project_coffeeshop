@@ -7,6 +7,7 @@
   max-height: 800px;
   height: 100vh;
   background: url("../images/background_header.svg") no-repeat center/cover;
+  box-sizing: border-box;
 }
 
 .header__image {
@@ -16,7 +17,6 @@
   top: 124px;
   right: 5px;
   z-index: 1;
-  margin-right: 5px;
 }
 
 .header__title {
