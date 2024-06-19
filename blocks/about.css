@@ -15,6 +15,14 @@
   padding: 0;
 }
 
+.about {
+  position: relative;
+  background-color: #0a2850;
+  overflow: hidden;
+  padding-top: 119px;
+  padding-bottom: 173px;
+}
+
 .about__content {
   max-width: 660px;
   position: relative;

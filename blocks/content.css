@@ -12,19 +12,3 @@
 .content__background {
   position: absolute;
 }
-
-.content__menu {
-  background-image: url(../images/background_menu.svg);
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-size: cover;
-  background-position-x: center;
-}
-
-.content__about {
-  background-color: #0a2850;
-  padding-bottom: 173px;
-  padding-top: 119px;
-  overflow: hidden;
-  position: relative;
-}
