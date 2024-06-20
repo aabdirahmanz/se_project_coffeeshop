@@ -43,12 +43,14 @@
   transition-property: opacity;
   transition-timing-function: ease-in;
   transition-delay: 250ms;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   border: none;
+  background-color: #2f80ed;
+  color: white;
 }
 
 .form__button:hover {

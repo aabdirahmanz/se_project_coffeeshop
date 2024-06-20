@@ -16,6 +16,7 @@
   line-height: 30px;
   color: white;
   max-width: 438px;
+  margin: 0;
 }
 
 .recipes {
@@ -42,9 +43,4 @@
   margin-bottom: 0;
   display: flex;
   justify-content: space-between;
-}
-
-.recipes {
-  padding-left: 80px;
-  padding-top: 100px;
 }

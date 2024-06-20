@@ -30,7 +30,7 @@
   padding: 0;
 }
 
-.menu__content {
+.menu {
   background-image: url(../images/background_menu.svg);
   padding-top: 100px;
   padding-bottom: 100px;

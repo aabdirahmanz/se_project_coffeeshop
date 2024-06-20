@@ -111,6 +111,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="find-surname"
+                  required
                 />
               </label>
 
@@ -121,6 +122,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="1-8"
+                  required
                 />
               </label>
 
@@ -130,6 +132,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="datetime-local"
+                  required
                 />
               </label>
 
@@ -140,23 +143,29 @@
                   class="form__input"
                   id="email"
                   placeholder="email@email.com"
+                  required
                 />
               </label>
             </fieldset>
 
-            <button class="form__button">Book a table</button>
+            <button class="form__button" type="submit">Book a table</button>
 
             <label
               for="agreement"
               class="form__label form__label_type_checkbox"
             >
-              <input type="checkbox" class="form__checkbox" id="agreement" />
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                required
+                id="agreement"
+              />
               I agree with the terms of use
             </label>
           </form>
         </section>
 
-        <section class="menu__content" id="section_menu">
+        <section class="menu" id="section_menu">
           <h2 class="menu__title">Menu</h2>
           <h3 class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
