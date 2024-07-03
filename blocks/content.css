@@ -2,13 +2,3 @@
   margin: auto;
   z-index: 1;
 }
-
-.content__background {
-  z-index: -2;
-  background-color: #0a2750;
-  margin: auto;
-}
-
-.content__background {
-  position: absolute;
-}
