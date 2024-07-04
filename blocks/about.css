@@ -8,12 +8,14 @@
   max-width: 251px;
   z-index: 2;
   flex-grow: 1;
-  margin: -10px;
+  margin: 0;
   text-align: left;
   padding: 0;
 }
 
 .about {
+  display: flex;
+  justify-content: space-around;
   position: relative;
   background-color: #0a2850;
   overflow: hidden;
@@ -25,11 +27,6 @@
   max-width: 660px;
   position: relative;
   margin-top: 19px;
-}
-
-.about__wrapper {
-  display: flex;
-  justify-content: space-around;
 }
 
 .about__paragraph {
