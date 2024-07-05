@@ -15,12 +15,14 @@
 
 .about {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   background-color: #0a2850;
   overflow: hidden;
   padding-top: 100px;
   padding-bottom: 173px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .about__content {
